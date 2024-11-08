@@ -124,4 +124,4 @@ export const testimonials = [
       'I was blown away by your ability to bring my vision to life. The end result is beautiful and exactly what I was hoping for. Thank you!',
     imgSrc: '/profile/profile-4.jpg',
   },
-];
+]; 
