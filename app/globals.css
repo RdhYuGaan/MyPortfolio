@@ -1,9 +1,9 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
+  /* Custom color variables for light mode */
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
@@ -32,6 +32,7 @@
     --chart-5: 27 87% 67%;
   }
 
+  /* Custom color variables for dark mode */
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
@@ -58,12 +59,12 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
-}
 
-@layer base {
+  /* Applying color variables */
   * {
-    @apply border-border;
+    @apply border-gray-300; /* Replacing the undefined border-border with a Tailwind class */
   }
+
   body {
     @apply bg-background text-foreground;
   }

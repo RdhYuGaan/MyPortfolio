@@ -1,9 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 import { socialLinks } from "../utils/dataBase";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import Button from "../components/Button"; // adjust path as needed
+
 
 function HeroSection() {
-  const renderSocialIcons = () => 
+  const renderSocialIcons = () =>
     socialLinks.map(({ href, icon, label }) => (
       <Link
         key={label}
@@ -19,38 +22,65 @@ function HeroSection() {
   return (
     <section
       id="home"
-      className="grid max-w-6xl gap-4 mx-auto my-6 md:my-12 md:grid-cols-2"
+      className="grid max-w-6xl gap-8 mx-auto my-6 md:my-12 md:grid-cols-2"
     >
-      <div className="self-center justify-self-center">
+      <div className="flex flex-col items-center justify-center text-center md:text-left">
         <TextGenerateEffect
-            className="text-base font-semibold md:text-xl"
-            duration={2}
-            filter={false}
-            words="HII i am  "
-        />    
-        <div className="self-center justify-self-center">
-        <TextGenerateEffect
-            className=" text-orange-400 md:text-xl"
-            duration={2}
-            filter={false}
-            words="HII i am radith yugan  "
-        /> 
-        <TextGenerateEffect
-            className=" text-3xl font-extrabold md:text-5xl"
-            duration={2}
-            filter={false}
-            words="Full stack  "
-        /> 
-        <TextGenerateEffect
-            className="ml-[5.4rem] md:ml-[8.5rem] mb-4 text-3xl font-extrabold
-             md:text-5xl"
-            duration={2}
-            filter={false}
-            words="web developer  "
-        /> 
+          className="text-base font-semibold md:text-xl"
+          duration={2}
+          filter={false}
+          words="Hi, I am"
+        />
 
+        <TextGenerateEffect
+          className="text-orange-400 md:text-xl"
+          duration={2}
+          filter={false}
+          words="Radith Yugan"
+        />
+        <TextGenerateEffect
+          className="text-3xl font-extrabold md:text-5xl"
+          duration={2}
+          filter={false}
+          words="Full Stack"
+        />
+        <TextGenerateEffect
+          className="mb-4 text-3xl font-extrabold md:text-5xl"
+          duration={2}
+          filter={false}
+          words="Web Developer"
+        />
+
+        <p className="mb-4 text-black/60 max-w-lg">
+          Full Stack Development involves expertise in both front-end and back-end technologies,
+          enabling seamless web application experiences from design to database management.
+          I am skilled in creating efficient, responsive applications using a range of tools
+          across the development spectrum.
+        </p>
+
+        <Button className="text-white bg-orange-400 hover:bg-orange-600">
+          Hire Me
+        </Button>
+
+        <div className="flex items-center gap-4 mt-4 md:hidden">
+          {renderSocialIcons()}
+        </div>
       </div>
-      
+
+      <div className="flex flex-col items-center justify-center md:items-end">
+        <Image 
+          src="/3.JPG"
+          alt="my image"
+          height={400}
+          width={400}
+          quality={100}
+          className="rounded-lg"
+        />
+
+        <div className="hidden mt-4 gap-4 md:flex">
+          {renderSocialIcons()}
+        </div>  
+      </div>
     </section>
   );
 }
