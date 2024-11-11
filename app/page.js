@@ -6,6 +6,7 @@ export default function Home(){
     <main className="w-full p-4">
       <HeroSection />
       <AboutSection />
+      <ServicesSection />
 
 
     </main>
