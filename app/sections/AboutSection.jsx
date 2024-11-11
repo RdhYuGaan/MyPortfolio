@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Progress from "./Progress"; // Ensure the correct path to Progress component
+import Prograss from "../components/Prograss";  // Ensure the correct path to Progress component
 
 const skills = [
     { name: "JavaScript", value: 80 },

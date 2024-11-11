@@ -13,10 +13,10 @@ function ServicesSection () {
           </p>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            {servicesVersion.map((service, index) => (
-                <SrevicesCard
+            {services.map((service, index) => (
+                <ServicesCard
                     key={index}
-                    imgsrc={service.imgsrc}
+                    imgSrc={service.imgsrc}
                     altText={servicealtText}
                     title={service.title}
                     description={service.description}
