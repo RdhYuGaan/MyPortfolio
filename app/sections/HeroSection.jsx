@@ -4,7 +4,6 @@ import { socialLinks } from "../utils/dataBase";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import Button from "../components/Button"; // adjust path as needed
 
-
 function HeroSection() {
   const renderSocialIcons = () =>
     socialLinks.map(({ href, icon, label }) => (
@@ -19,6 +18,11 @@ function HeroSection() {
       </Link>
     ));
 
+  const paraText = `Full Stack Development involves expertise in both front-end and back-end technologies, 
+    enabling seamless web application experiences from design to database management. 
+    I am skilled in creating efficient, responsive applications using a range of tools 
+    across the development spectrum.`;
+
   return (
     <section
       id="home"
@@ -31,12 +35,11 @@ function HeroSection() {
           filter={false}
           words="Hi, I am"
         />
-
         <TextGenerateEffect
           className="text-orange-400 md:text-xl"
           duration={2}
           filter={false}
-          words="Radith Yugan"
+          words="Radith YuGan"
         />
         <TextGenerateEffect
           className="text-3xl font-extrabold md:text-5xl"
@@ -50,15 +53,14 @@ function HeroSection() {
           filter={false}
           words="Web Developer"
         />
+        <TextGenerateEffect
+          className="mb-4 text-black/60 max-w-lg"
+          duration={1}
+          filter={false}
+          words={paraText}
+        />
 
-        <p className="mb-4 text-black/60 max-w-lg">
-          Full Stack Development involves expertise in both front-end and back-end technologies,
-          enabling seamless web application experiences from design to database management.
-          I am skilled in creating efficient, responsive applications using a range of tools
-          across the development spectrum.
-        </p>
-
-        <Button className="text-white bg-orange-400 hover:bg-orange-600">
+        <Button className="text-white bg-orange-400 hover:bg-orange-600 mt-4">
           Hire Me
         </Button>
 
@@ -69,12 +71,13 @@ function HeroSection() {
 
       <div className="flex flex-col items-center justify-center md:items-end">
         <Image 
-          src="/3.JPG"
-          alt="my image"
+          src="/3.jpg"
+          alt="Profile image"
           height={400}
           width={400}
           quality={100}
           className="rounded-lg"
+          priority
         />
 
         <div className="hidden mt-4 gap-4 md:flex">
