@@ -1,3 +1,6 @@
+import ServicesCard from '../components/SrevicesCard';
+import {services} from 'utils/dataBase';
+
 function ServicesSection () {
      return (
         <section className="max-w-6xl mx-auto md:my-[6rem]"
