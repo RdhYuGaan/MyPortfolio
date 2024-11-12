@@ -1,5 +1,5 @@
 'use client';
-import { Link } from "next/link";
+import { Link } from 'lucide-react';
 import Image from "next/image";
 import { navLinks, socialLinks } from "../utils/dataBase";
 
@@ -24,7 +24,7 @@ function Footer() {
         key={id}
         className="text-sm font-semibold text-gray-900 transition cursor-pointer hover:text-orange-500"
       >
-        <Link href={`#${id}`}>{label}</Link>
+        {label}
       </li>
     ));
   };
@@ -32,7 +32,7 @@ function Footer() {
   return (
     <footer className="mt-[3rem] flex flex-col justify-center gap-6 md:gap-12 py-12 bg-[#f8f8f8]">
       <Image
-        src="/logo.svg"
+        src="/logo.png"
         alt="logo"
         className="transition-transform duration-300 cursor-pointer hover:-rotate-6"
         width={150}

@@ -1,4 +1,4 @@
-
+import Button from '../components/Button';
 
  function ContactSection() {
   return (

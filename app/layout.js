@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={` ${inter.className} antialiased`}>
         <Navbar />
         {children}
-        <footer/> 
+        <Footer /> 
       </body>
     </html>
   );

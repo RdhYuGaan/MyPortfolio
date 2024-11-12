@@ -1,5 +1,3 @@
-import { button } from "framer-motion/client"
-
 function Button({ children, className }) {
     return (
         <button 
