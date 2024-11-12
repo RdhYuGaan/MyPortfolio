@@ -2,7 +2,9 @@ import HeroSection from './sections/HeroSection';
 import AboutSection from './sections/AboutSection';
 import ServicesSection from './sections/ServicesSection';
 import ProjectsSection from './sections/ProjectsSection';
-import TestmonialsSection from './sections/TestmonialsSection';
+import TestimonialsSection from './sections/TestimonialsSection';
+import ContactSection  from './sections/ContactSection ';
+
 export default function Home(){
 
   return (
@@ -11,7 +13,8 @@ export default function Home(){
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />
-      <TestmonialsSection />
+      <TestimonialsSection />
+      <ContactSection />
 
 
 
