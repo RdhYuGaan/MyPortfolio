@@ -1,3 +1,4 @@
+'use client';
 import { Link } from "next/link";
 import Image from "next/image";
 import { navLinks, socialLinks } from "../utils/dataBase";
@@ -42,7 +43,11 @@ function Footer() {
 
       <div className="flex gap-4 justify-center">{renderSocialIcons()}</div>
 
-      
+      <p className="text-sm text-black/60 ">
+      copyright @2024 {''}
+      <span className="text-orange-400">yugan wijerathna</span>
+      all right reserved. inc.
+      </p>
     </footer>
   );
 }
