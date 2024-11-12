@@ -19,7 +19,15 @@
             </p>
             <div className="flex flex-col items-center juustify-center gap-6 
             mt-6 md:flex-row">
-                
+                <input
+                    placeholder="enter your email"
+                    type="text"
+                    className="px-4 py-2 border border-gray-400 rounded-lg"
+                />
+                <Button className="text-white bg-orange-400 hover:bg-orange-600">
+                    {''}
+                    Contact me
+                </Button>    
             </div>
     </section>
 )
