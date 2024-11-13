@@ -32,12 +32,12 @@ function Nav({ className }) {
   };
   return (
     <nav
-      className={`z-50 p-4 transition duration-500 ease-out bg-white border-b ${className}`}
+      className={`z-50 p-4 transition duration-500 ease-out  bg-white border-b ${className}`}
     >
       <div className="flex items-center justify-between max-w-6xl mx-auto">
         <div className="z-30">
           <Image
-            src="/logo.svg"
+            src="/logo.png"
             alt="logo"
             className="transition-transform duration-300 cursor-pointer hover:-rotate-6"
             width={150}
@@ -70,7 +70,7 @@ function Nav({ className }) {
         >
           <ul className="flex flex-col items-center gap-4">
             {renderLinks()}
-            <Button className="text-white bg-orange-400 hover:bg-orange-600">
+            <Button className="text-white bg-orange-400 rounded-md hover:bg-orange-600">
               Download CV
             </Button>
           </ul>

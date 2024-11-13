@@ -16,8 +16,8 @@ function AboutSection() {
         >
             <Image
                 className="hidden md:block"
-                src="/2.JPG"
-                alt="2nd-image"
+                src="/profile.png"
+                alt="about-cection-photo"
                 height={500}
                 width={500}
                 quality={100}

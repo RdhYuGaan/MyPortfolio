@@ -9,7 +9,7 @@ import Button from '../components/Button';
     > 
         {''}
         <h2 className="mb-4 text-3xl font-bold text-center lg:mb-8">
-               lets design together
+               Lets Design Together
          </h2>
 
             <p className="mb-4 lg:mb-8 text-center mx-auto max-w-[36rem] text-black/60">
@@ -17,7 +17,7 @@ import Button from '../components/Button';
             i am here to bring your concept to life .lets create something amazing together
                 
             </p>
-            <div className="flex flex-col items-center juustify-center gap-6 
+            <div className="flex flex-col items-center justify-center gap-6 
             mt-6 md:flex-row">
                 <input
                     placeholder="enter your email"

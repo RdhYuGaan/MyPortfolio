@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-function SrevicesCard ({imgSrc, altText,title,description}) {
+function ServicesCard ({imgSrc, altText,title,description}) {
   return (
     <div className='p-6 mg-[#f8f8f8] hover:cursor-pointer
     hover:bg-orange-100 transition duration-500 rounded-lg
@@ -20,4 +20,4 @@ function SrevicesCard ({imgSrc, altText,title,description}) {
   
 }
 
-export default SrevicesCard;
+export default ServicesCard;

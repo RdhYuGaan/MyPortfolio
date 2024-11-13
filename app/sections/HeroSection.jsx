@@ -71,16 +71,16 @@ function HeroSection() {
 
       <div className="flex flex-col items-center justify-center md:items-end">
         <Image 
-          src="/3.jpg"
+          src="/profile.png"
           alt="Profile image"
-          height={400}
-          width={400}
+          height={800}
+          width={800}
           quality={100}
           className="rounded-lg"
           priority
         />
 
-        <div className="hidden mt-4 gap-4 md:flex">
+        <div className="hidden mt-4 gap-4  md:flex">
           {renderSocialIcons()}
         </div>  
       </div>

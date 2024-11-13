@@ -1,4 +1,4 @@
-import ServicesCard from '../components/SrevicesCard';
+import ServicesCard from '../components/ServicesCard';
 import {services} from '../utils/dataBase';
 
 function ServicesSection () {

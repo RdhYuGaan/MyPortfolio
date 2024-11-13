@@ -17,7 +17,7 @@ export const socialLinks = [
   },
   {
     href: 'https://www.facebook.com',
-    icon: <FaFacebook className="size-5" />,
+    icon: <FaFacebook className="size-5 " />,
     label: 'Facebook',
   },
   {
