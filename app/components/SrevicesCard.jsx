@@ -1,4 +1,5 @@
-import Image from '/next/image';
+import Image from "next/image";
+
 function SrevicesCard ({imgSrc, altText,title,description}) {
   return (
     <div className='p-6 mg-[#f8f8f8] hover:cursor-pointer

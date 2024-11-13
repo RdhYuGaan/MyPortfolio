@@ -14,7 +14,7 @@ function TestimonialCard({testimonial}) {
                 className="rounded-full"
 
             />    
-            <h3 className="font-bold">{tesstimonial.name}</h3>
+            <h3 className="font-bold">{testimonial.name}</h3>
         </div>
     </div>
   )

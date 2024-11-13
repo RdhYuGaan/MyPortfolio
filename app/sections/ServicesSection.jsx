@@ -1,5 +1,5 @@
 import ServicesCard from '../components/SrevicesCard';
-import {services} from 'utils/dataBase';
+import {services} from '../utils/dataBase';
 
 function ServicesSection () {
      return (
@@ -19,8 +19,8 @@ function ServicesSection () {
             {services.map((service, index) => (
                 <ServicesCard
                     key={index}
-                    imgSrc={service.imgsrc}
-                    altText={servicealtText}
+                    imgSrc={service.imgSrc}
+                    altText={service.altText}
                     title={service.title}
                     description={service.description}
                 />

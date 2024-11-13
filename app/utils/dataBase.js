@@ -104,7 +104,7 @@ export const testimonials = [
     name: 'John Doe',
     review:
       'Working with you was an absolute pleasure. Your attention to detail and creativity made the process smooth and enjoyable. I am thrilled with the final product!',
-    imgSrc: '/profile/profile-1.jpg ',
+    imgSrc: '/profile/profile-1.jpg',
   },
   {
     name: 'Jane Smith',

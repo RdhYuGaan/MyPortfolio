@@ -32,7 +32,7 @@ function HeroSection() {
         <TextGenerateEffect
           className="text-base font-semibold md:text-xl"
           duration={2}
-          filter={false}
+          filter={true}
           words="Hi, I am"
         />
         <TextGenerateEffect
