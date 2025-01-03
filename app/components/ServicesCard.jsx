@@ -3,7 +3,7 @@ import Image from "next/image";
 function ServicesCard ({imgSrc, altText,title,description}) {
   return (
     <div className='p-6 mg-[#f8f8f8] hover:cursor-pointer
-    hover:bg-orange-100 transition duration-500 rounded-lg
+    hover:bg-[#7DC2C2] transition duration-500 rounded-lg
     shadow-md'>
         <Image
             src={imgSrc}

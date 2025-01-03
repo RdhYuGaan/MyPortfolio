@@ -22,7 +22,7 @@ function Footer() {
     return navLinks.map(({ id, label }) => (
       <li
         key={id}
-        className="text-sm font-semibold text-gray-900 transition cursor-pointer hover:text-bg-[#0B7474] "
+        className="text-sm font-semibold text-black transition cursor-pointer hover:text-[#0B7474] "
       >
         {label}
       </li>
@@ -34,7 +34,7 @@ function Footer() {
       <Image
         src="/logo.png"
         alt="logo"
-        className="transition-transform duration-300 cursor-pointer  hover:-rotate-6"
+        className="transition-transform duration-300 cursor-pointer hover:-rotate-6"
         width={200}
         height={80}
       />
@@ -44,8 +44,8 @@ function Footer() {
       <div className="flex gap-4 justify-center">{renderSocialIcons()}</div>
 
       <p className="text-sm  text-black/60 ">
-      Copyright @2024 {''}
-      <span className="text-bg-[#10adad] ">yugan wijerathna </span>
+      Copyright @2025 {''}
+      <span className="text-[#10adad] ">yugan wijerathna </span>
       All right reserved. inc.
       </p>
     </footer>
