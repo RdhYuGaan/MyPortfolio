@@ -12,7 +12,7 @@ function HeroSection() {
         href={href}
         aria-label={label}
         target="_blank"
-        className="text-black transition hover:text-orange-500 duration-300"
+        className="text-[#10adad] transition hover:text-[#0B7474] duration-300"
       >
         {icon}
       </Link>
@@ -36,7 +36,7 @@ function HeroSection() {
           words="Hi, I am"
         />
         <TextGenerateEffect
-          className="text-orange-400 md:text-xl"
+          className="text-[#10adad] md:text-xl"
           duration={2}
           filter={false}
           words="Radith YuGan"
@@ -60,7 +60,7 @@ function HeroSection() {
           words={paraText}
         />
 
-        <Button className="text-white bg-orange-400 hover:bg-orange-600 mt-4">
+        <Button className="text-white bg-[#10adad] hover:bg-[#0B7474] mt-4">
           Hire Me
         </Button>
 

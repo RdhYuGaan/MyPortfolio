@@ -12,7 +12,7 @@ function Footer() {
         href={href}
         aria-label={label}
         target="_blank"
-        className="text-black transition hover:text-orange-500 duration-300"
+        className="text-black transition hover:text-[#0B7474] duration-300"
       >
         {icon}
       </Link>
@@ -22,7 +22,7 @@ function Footer() {
     return navLinks.map(({ id, label }) => (
       <li
         key={id}
-        className="text-sm font-semibold text-gray-900 transition cursor-pointer hover:text-orange-500"
+        className="text-sm font-semibold text-gray-900 transition cursor-pointer hover:text-bg-[#0B7474] "
       >
         {label}
       </li>
@@ -45,7 +45,7 @@ function Footer() {
 
       <p className="text-sm  text-black/60 ">
       Copyright @2024 {''}
-      <span className="text-orange-400">yugan wijerathna </span>
+      <span className="text-bg-[#10adad] ">yugan wijerathna </span>
       All right reserved. inc.
       </p>
     </footer>

@@ -11,18 +11,14 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    href: 'https://www.linkedin.com',
-    icon: <FaLinkedin className="size-5" />,
+    href: 'https://www.linkedin.com/in/radith-yugan-526966302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    icon: <FaLinkedin className="size-6" />,
     label: 'LinkedIn',
   },
+ 
   {
-    href: 'https://www.facebook.com',
-    icon: <FaFacebook className="size-5 " />,
-    label: 'Facebook',
-  },
-  {
-    href: 'https://www.github.com',
-    icon: <FaGithub className="size-5" />,
+    href: 'https://github.com/RdhYuGaan',
+    icon: <FaGithub className="size-6" />,
     label: 'GitHub',
   },
 ];

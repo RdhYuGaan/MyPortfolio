@@ -23,7 +23,7 @@ function Nav({ className }) {
     return navLinks.map(({ id, label }) => (
       <li
         key={id}
-        className="text-sm font-semibold text-gray-900 transition cursor-pointer hover:text-orange-500"
+        className="text-sm font-semibold text-gray-900 transition cursor-pointer hover:text-[#0B7474] "
         onClick={() => handleLinkClick(id)}
       >
         {label}
@@ -41,7 +41,7 @@ function Nav({ className }) {
             alt="logo"
             className="transition-transform duration-300 cursor-pointer hover:-rotate-6"
             width={150}
-            height={50}
+            height={60}
           />
         </div>
 
@@ -49,7 +49,7 @@ function Nav({ className }) {
           <ul className="flex items-center gap-6 ">
             {renderLinks()}
           </ul>
-          <Button className="text-white bg-orange-400 hover:bg-orange-600">
+          <Button className="text-white bg-[#10adad] hover:bg-[#0B7474]">
             Download CV
           </Button>
         </div>
@@ -70,7 +70,7 @@ function Nav({ className }) {
         >
           <ul className="flex flex-col items-center gap-4">
             {renderLinks()}
-            <Button className="text-white bg-orange-400 rounded-md hover:bg-orange-600">
+            <Button className="text-white bg-[#10adad]  rounded-md hover:bg-[#0B7474]">
               Download CV
             </Button>
           </ul>

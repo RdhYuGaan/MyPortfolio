@@ -17,19 +17,19 @@ function ProjectsSection() {
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-4">
-                <Button className="bg-gray-100 border hover:bg-gray-200 hover:border-orange-400">
+                <Button className="bg-gray-100 border hover:bg-gray-200 hover:border-[#0B7474]">
                     All
                 </Button>
-                <Button className="bg-gray-100 border hover:bg-gray-200 hover:border-orange-400">
+                <Button className="bg-gray-100 border hover:bg-gray-200 hover:border-[#0B7474]">
                     UI/UX
                 </Button>
-                <Button className="bg-gray-100 border hover:bg-gray-200 hover:border-orange-400">
+                <Button className="bg-gray-100 border hover:bg-gray-200 hover:border-[#0B7474]">
                     Web Design
                 </Button>
-                <Button className="bg-gray-100 border hover:bg-gray-200 hover:border-orange-400">
+                <Button className="bg-gray-100 border hover:bg-gray-200 hover:border-[#0B7474]">
                    App design
                 </Button>
-                <Button className="bg-gray-100 border hover:bg-gray-200 hover:border-orange-400">
+                <Button className="bg-gray-100 border hover:bg-gray-200 hover:border-[#0B7474]">
                     Grapic design
                 </Button>
             </div>
