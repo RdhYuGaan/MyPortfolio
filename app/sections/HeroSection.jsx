@@ -30,7 +30,7 @@ function HeroSection() {
     >
       <div className="flex flex-col items-center justify-center text-center md:text-left">
         <TextGenerateEffect
-          className="text-base font-semibold md:text-xl"
+          className="text-base font-semibold md:text-xl -z-10 relative"
           duration={2}
           filter={true}
           words="Hi, I am"
@@ -69,18 +69,18 @@ function HeroSection() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center md:items-end">
+      <div className="flex flex-col items-center justify-center md:items-end overflow-hidden">
         <Image 
           src="/profile.png"
           alt="Profile image"
           height={800}
           width={800}
           quality={100}
-          className="rounded-lg"
+          className="rounded-lg md:scale-150"
           priority
         />
 
-        <div className="hidden mt-4 gap-4  md:flex">
+        <div className="hidden mt-4 gap-4  md:flex items-center justify-center relative z-50 w-full">
           {renderSocialIcons()}
         </div>  
       </div>

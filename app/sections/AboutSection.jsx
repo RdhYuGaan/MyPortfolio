@@ -15,7 +15,7 @@ function AboutSection() {
             className="flex flex-col max-w-6xl mx-auto md:flex-row items-center justify-center md:gap-[3rem] md:my-[6rem]"
         >
             <Image
-                className="hidden md:block"
+                className="hidden md:block md:scale-150"
                 src="/profile.png"
                 alt="about-cection-photo"
                 height={500}

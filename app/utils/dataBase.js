@@ -36,33 +36,40 @@ export const projects = [
     imgSrc: '/web/web-img-1.png',
     altText: 'E-commerce Website',
     title: 'E-commerce Website',
+    category: 'Web Design',
   },
   {
     imgSrc: '/web/web-img-2.png',
     altText: 'Portfolio Website',
     title: 'Portfolio Website',
+    category: 'Web Design',
   },
   {
     imgSrc: '/web/web-img-3.png',
     altText: 'Mobile App Design',
     title: 'Mobile App Design',
+    category: 'App Design',
   },
   {
     imgSrc: '/web/web-img-4.png',
     altText: 'Corporate Website',
     title: 'Corporate Website',
+    category: 'Web Design',
   },
   {
     imgSrc: '/web/web-img-5.png',
     altText: 'Landing Page Design',
     title: 'Landing Page Design',
+    category: 'UI/UX',
   },
   {
     imgSrc: '/web/web-img-6.png',
     altText: 'Social Media Dashboard',
     title: 'Social Media Dashboard',
+    category: 'Graphic Design',
   },
 ];
+
 
 export const services = [
   {

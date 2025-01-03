@@ -30,20 +30,20 @@ function Footer() {
   };
 
   return (
-    <footer className="mt-[3rem] flex flex-col items-center justify-center gap-6 md:gap-12 py-12 bg-[#f8f8f8]">
+    <footer className="mt-[3rem] flex flex-col items-center justify-center gap-6 md:gap-12 py-0 bg-[#f8f8f8]">
       <Image
-        src="/logo.png"
+        src="/logo-h.png"
         alt="logo"
-        className="transition-transform duration-300 cursor-pointer hover:-rotate-6"
+        className="transition-transform mt-8 duration-300 cursor-pointer hover:-rotate-6"
         width={200}
-        height={80}
+        height={100}
       />
       
-      <ul className="flex gap-4 justify-center">{renderLinks()}</ul>
+      {/* <ul className="flex gap-4 justify-center ">{renderLinks()}</ul> */}
 
-      <div className="flex gap-4 justify-center">{renderSocialIcons()}</div>
+      {/* <div className="flex gap-4 justify-center h-1">{renderSocialIcons()}</div> */}
 
-      <p className="text-sm  text-black/60 ">
+      <p className="text-sm  text-black/60 relative -top-8">
       Copyright @2025 {''}
       <span className="text-[#10adad] ">yugan wijerathna </span>
       All right reserved. inc.

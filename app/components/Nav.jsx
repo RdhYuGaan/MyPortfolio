@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { navLinks } from '../utils/dataBase';
 import Image from 'next/image';
@@ -23,18 +22,19 @@ function Nav({ className }) {
     return navLinks.map(({ id, label }) => (
       <li
         key={id}
-        className="text-sm font-semibold text-gray-900 transition cursor-pointer hover:text-[#0B7474] "
+        className="text-sm font-semibold text-gray-900 transition cursor-pointer hover:text-[#0B7474]"
         onClick={() => handleLinkClick(id)}
       >
         {label}
       </li>
     ));
   };
+
   return (
     <nav
-      className={`z-50 p-4 transition duration-500 ease-out  bg-white border-b ${className}`}
+      className={`z-50 transition p-4 duration-500 ease-out bg-white border-b ${className}`}
     >
-      <div className="flex items-center justify-between max-w-6xl mx-auto">
+      <div className="flex items-center justify-between max-w-screen-2xl mx-auto h-20">
         <div className="z-30">
           <Image
             src="/logo.png"
@@ -45,19 +45,18 @@ function Nav({ className }) {
           />
         </div>
 
-        <div className="items-center hidden gap-6 md:flex ">
-          <ul className="flex items-center gap-6 ">
-            {renderLinks()}
-          </ul>
-          <Button className="text-white bg-[#10adad] hover:bg-[#0B7474]">
+        <div className="items-center hidden gap-6 md:flex z-50">
+          <ul className="flex items-center gap-6">{renderLinks()}</ul>
+          <a
+            href="/CV.pdf" // Replace with the actual file path
+            download="Yugan Wijerathna CV.pdf" // The name of the downloaded file
+            className="text-white bg-[#10adad] px-4 py-2 rounded-md hover:bg-[#0B7474]"
+          >
             Download CV
-          </Button>
+          </a>
         </div>
 
-        <button
-          className="z-30 md:hidden "
-          onClick={handleMenuToggle}
-        >
+        <button className="z-30 md:hidden" onClick={handleMenuToggle}>
           {isOpen ? <X /> : <MenuIcon />}
         </button>
 
@@ -70,9 +69,13 @@ function Nav({ className }) {
         >
           <ul className="flex flex-col items-center gap-4">
             {renderLinks()}
-            <Button className="text-white bg-[#10adad]  rounded-md hover:bg-[#0B7474]">
+            <a
+              href="/CV.pdf" // Replace with the actual file path
+              download="My-CV.pdf" // The name of the downloaded file
+              className="text-white bg-[#10adad] px-4 py-2 rounded-md hover:bg-[#0B7474]"
+            >
               Download CV
-            </Button>
+            </a>
           </ul>
         </div>
       </div>
