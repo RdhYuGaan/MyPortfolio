@@ -13,7 +13,7 @@ function ServicesCard ({imgSrc, altText,title,description}) {
             className='mb-4'
         />
         <h3 className='mb-2 text-xl font-bold'>{title}</h3>
-        <p className='text-black/60'>hii anndqjhhj gergehejhrh grhethh gerenhih bdthtrhtrhd</p>
+        <p className='text-black/60'>hii anndqjhhj gerge</p>
 
     </div>
   );

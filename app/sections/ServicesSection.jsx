@@ -12,7 +12,8 @@ function ServicesSection () {
 
           <p className="mb-4 lg:mb-8 text-center mx-auto max-w-[36rem] text-black/60">
             {''}
-             i offer a range of UI/UX design ,user friendly interface and visually stricking design from web app to branding solluition
+            I provide comprehensive UI/UX design services, creating user-friendly interfaces and 
+            visually captivating designs for web applications and branding solutions.
           </p>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">

@@ -18,10 +18,10 @@ function HeroSection() {
       </Link>
     ));
 
-  const paraText = `Full Stack Development involves expertise in both front-end and back-end technologies, 
-    enabling seamless web application experiences from design to database management. 
-    I am skilled in creating efficient, responsive applications using a range of tools 
-    across the development spectrum.`;
+  const paraText = `As a Software Engineer, I design and develop scalable software systems. 
+  With expertise in modern methodologies, programming languages, and architecture, I deliver 
+  innovative, reliable solutions. My problem-solving skills and focus on optimization ensure high-quality, 
+  user-centric applications that meet complex requirements effectively.`;
 
   return (
     <section
@@ -39,7 +39,7 @@ function HeroSection() {
           className="text-[#10adad] md:text-xl"
           duration={2}
           filter={false}
-          words="Radith YuGan"
+          words="Radith Yugan"
         />
         <TextGenerateEffect
           className="text-3xl font-extrabold md:text-5xl"

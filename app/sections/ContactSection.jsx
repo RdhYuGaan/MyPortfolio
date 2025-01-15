@@ -13,8 +13,8 @@ import Button from '../components/Button';
          </h2>
 
             <p className="mb-4 lg:mb-8 text-center mx-auto max-w-[36rem] text-black/60">
-            {''}
-            i am here to bring your concept to life .lets create something amazing together
+            {''}  
+            I'm here to turn your ideas into reality. Let's collaborate and build something extraordinary together.
                 
             </p>
             <div className="flex flex-col items-center justify-center gap-6 

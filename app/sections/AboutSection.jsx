@@ -26,7 +26,7 @@ function AboutSection() {
             <div className="self-center justify-self-center">
                 <h2 className="mb-4 text-3xl font-bold">About Me</h2>
                 <p className="mb-4 text-black/60">
-                    With a background in design and a deep understanding of user-centered principles, I focus on crafting designs that are both visually appealing and highly functional.
+                With a strong foundation in software engineering and a passion for solving complex challenges, I specialize in building scalable, efficient, and innovative solutions. 
                 </p>
 
                 {skills.map((skill, index) => (
