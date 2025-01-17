@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
-import TestimonialCard from "@/app/components/TestimonialCard";
+// import TestimonialCard from "@/app/components/TestimonialCard";
 
 
 export const InfiniteMovingCards = ({
@@ -87,10 +87,10 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item, idx) => (
-          <TestimonialCard testimonial={item} key={idx} />
+        {/* {items.map((item, idx) => (
+          // <TestimonialCard testimonial={item} key={idx} />
 
-        ))}
+        ))} */}
       </ul>
     </div>
   );

@@ -33,9 +33,9 @@ export const skills = [
 
 export const projects = [
   {
-    imgSrc: '/web/web-img-1.png',
-    altText: 'E-commerce Website',
-    title: 'E-commerce Website',
+    imgSrc: '/institute.png',
+    altText: 'AcademyX Web Site',
+    title: 'AcademyX Web Site',
     category: 'Web Design',
   },
   {
