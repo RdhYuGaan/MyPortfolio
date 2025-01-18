@@ -48,6 +48,7 @@ function ProjectsSection() {
             imgSrc={project.imgSrc}
             altText={project.altText}
             title={project.title}
+            description= {project.description}
           />
         ))}
       </div>

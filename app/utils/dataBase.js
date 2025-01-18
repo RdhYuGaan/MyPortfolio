@@ -37,30 +37,40 @@ export const projects = [
     altText: 'AcademyX Web Site',
     title: 'AcademyX Web Site',
     category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
   {
     imgSrc: '/web/web-img-2.png',
     altText: 'Portfolio Website',
     title: 'Portfolio Website',
     category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
   {
     imgSrc: '/web/web-img-3.png',
     altText: 'Mobile App Design',
     title: 'Mobile App Design',
     category: 'App Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
   {
     imgSrc: '/web/web-img-4.png',
     altText: 'Corporate Website',
     title: 'Corporate Website',
     category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
   {
     imgSrc: '/web/web-img-5.png',
     altText: ' Pet Care and Monitering Mobile Application',
     title: ' Pet Care and Monitering Mobile Application',
     category: 'UI/UX',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
   // {
   //   imgSrc: '/web/web-img-6.png',
