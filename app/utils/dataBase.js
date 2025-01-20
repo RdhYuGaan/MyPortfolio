@@ -41,9 +41,41 @@ export const projects = [
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
   {
-    imgSrc: '/web/web-img-2.png',
+    imgSrc: '/portfolio.png',
     altText: 'Portfolio Website',
     title: 'Portfolio Website',
+    category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  },
+  {
+    imgSrc: '/managemate.png',
+    altText: 'Managemate Project Management Website',
+    title: 'Managemate Website',
+    category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  },
+  {
+    imgSrc: '/carsale.png',
+    altText: 'AutoRentz Website',
+    title: 'AutoRentz Car Show Case Web Application',
+    category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  },
+  {
+    imgSrc: '/backery.png',
+    altText: 'Sithurasa Backery Website',
+    title: 'Sithurasa Backery Web Application',
+    category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  },
+  {
+    imgSrc: '/highereducation.png',
+    altText: 'Higher Education Web Application',
+    title: 'Higher Education Web Application',
     category: 'Web Design',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
@@ -56,14 +88,7 @@ export const projects = [
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
-  {
-    imgSrc: '/web/web-img-4.png',
-    altText: 'Corporate Website',
-    title: 'Corporate Website',
-    category: 'Web Design',
-    description:
-      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
-  },
+  
   {
     imgSrc: '/web/web-img-5.png',
     altText: ' Pet Care and Monitering Mobile Application',
@@ -72,12 +97,12 @@ export const projects = [
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
-  // {
-  //   imgSrc: '/web/web-img-6.png',
-  //   altText: 'Social Media Dashboard',
-  //   title: 'Social Media Dashboard',
-  //   category: 'Graphic Design',
-  // },
+  {
+    imgSrc: '/web/web-img-6.png',
+    altText: 'Social Media Dashboard',
+    title: 'Social Media Dashboard',
+    category: 'Graphic Design',
+  },
 ];
 
 

@@ -14,7 +14,8 @@ export default function ProjectCard({ imgSrc, altText, title, description }) {
       />
       
       {/* Overlay for title and description */}
-      <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-500 bg-black bg-opacity-0 rounded-lg group-hover:bg-opacity-75">
+      <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-500
+       bg-black bg-opacity-0 rounded-lg group-hover:bg-opacity-75">
         <div className="text-center transition-opacity duration-500 opacity-0 group-hover:opacity-100">
           <h3 className="text-white text-xl font-semibold">{title}</h3>
           <p className="text-white mt-2 text-sm">{description}</p>
