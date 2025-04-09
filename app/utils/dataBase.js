@@ -33,6 +33,14 @@ export const skills = [
 
 export const projects = [
   {
+    imgSrc: '/bus.png',
+    altText: 'Bus Reservation and Booking System',
+    title: 'Bus Reservation and Booking System',
+    category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  },
+  {
     imgSrc: '/institute.png',
     altText: 'AcademyX Web Site',
     title: 'AcademyX Web Site',
@@ -44,6 +52,14 @@ export const projects = [
     imgSrc: '/portfolio.png',
     altText: 'Portfolio Website',
     title: 'Portfolio Website',
+    category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  },
+  {
+    imgSrc: '/agroai.png',
+    altText: 'Agro AI Web Application',
+    title: 'Agro AI Web Application',
     category: 'Web Design',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
@@ -65,9 +81,37 @@ export const projects = [
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
   {
+    imgSrc: '/humaan.png',
+    altText: 'Humaan Official Website Clone',
+    title: 'Humaan Official Website Clone',
+    category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  },
+  {
+    imgSrc: '/appointment.png',
+    altText: 'Appointment Booking System',
+    title: 'Appointment Booking System',
+    category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  },
+  {
     imgSrc: '/backery.png',
     altText: 'Sithurasa Backery Website',
     title: 'Sithurasa Backery Web Application',
+    category: 'Web Design',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  },
+  
+  
+  
+  
+  {
+    imgSrc: '/netflix.png',
+    altText: 'Netflix official Website Clone',
+    title: 'Netflix official Website Clone',
     category: 'Web Design',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
@@ -81,28 +125,39 @@ export const projects = [
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
   {
-    imgSrc: '/web/web-img-3.png',
-    altText: 'Mobile App Design',
-    title: 'Mobile App Design',
-    category: 'App Design',
+    imgSrc: '/library.png',
+    altText: 'Library Management System',
+    title: 'Library Management System',
+    category: 'Web Design',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
+
+
+
+  // {
+  //   imgSrc: '/web/web-img-3.png',
+  //   altText: 'Mobile App Design',
+  //   title: 'Mobile App Design',
+  //   category: 'App Design',
+  //   description:
+  //     'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  // },
   
-  {
-    imgSrc: '/web/web-img-5.png',
-    altText: ' Pet Care and Monitering Mobile Application',
-    title: ' Pet Care and Monitering Mobile Application',
-    category: 'UI/UX',
-    description:
-      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
-  },
-  {
-    imgSrc: '/web/web-img-6.png',
-    altText: 'Social Media Dashboard',
-    title: 'Social Media Dashboard',
-    category: 'Graphic Design',
-  },
+  // {
+  //   imgSrc: '/web/web-img-5.png',
+  //   altText: ' Pet Care and Monitering Mobile Application',
+  //   title: ' Pet Care and Monitering Mobile Application',
+  //   category: 'UI/UX',
+  //   description:
+  //     'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  // },
+  // {
+  //   imgSrc: '/web/web-img-6.png',
+  //   altText: 'Social Media Dashboard',
+  //   title: 'Social Media Dashboard',
+  //   category: 'Graphic Design',
+  // },
 ];
 
 
@@ -113,6 +168,7 @@ export const services = [
     title: 'UI/UX Design',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+    
   },
   {
     imgSrc: '/web.png',

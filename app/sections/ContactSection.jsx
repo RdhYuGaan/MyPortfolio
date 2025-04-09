@@ -12,9 +12,9 @@ function ContactSection() {
   useEffect(() => {
     setIsMounted(true); // Update state once the component is mounted on the client
   }, []);
-  // Hydration fix: Only render the form once the client-side is fully mounted
+  //  Only render the form once the client-side is fully mounted
   if (!isMounted) {
-    return null; // You can also return a loading spinner or placeholder here
+    return null; // return a loading spinner or placeholder here
   }
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent default form submission behavior

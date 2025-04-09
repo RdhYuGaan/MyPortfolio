@@ -19,7 +19,9 @@ export default function ProjectCard({ imgSrc, altText, title, description }) {
         <div className="text-center transition-opacity duration-500 opacity-0 group-hover:opacity-100">
           <h3 className="text-white text-xl font-semibold">{title}</h3>
           <p className="text-white mt-2 text-sm">{description}</p>
-          <button className="px-4 py-2 text-sm font-semibold text-white transition duration-500 bg-[#B7474] rounded-md hover:bg-[#0B7474] mt-4">
+          <button 
+            // onClcked={}
+            className="px-4 py-2 text-sm font-semibold text-white transition duration-500 bg-[#B7474] rounded-md hover:bg-[#0B7474] mt-4">
             Preview live Site
           </button>
         </div>
