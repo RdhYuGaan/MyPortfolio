@@ -32,11 +32,14 @@ export const skills = [
 ];
 
 export const projects = [
+  
+
   {
     imgSrc: '/bus.png',
     altText: 'Bus Reservation and Booking System',
     title: 'Bus Reservation and Booking System',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/Bus-reservation-System.git',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
@@ -45,6 +48,7 @@ export const projects = [
     altText: 'AcademyX Web Site',
     title: 'AcademyX Web Site',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/AcademyX.git',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
@@ -53,6 +57,7 @@ export const projects = [
     altText: 'Portfolio Website',
     title: 'Portfolio Website',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/MyPortfolio.git',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
@@ -61,6 +66,7 @@ export const projects = [
     altText: 'Agro AI Web Application',
     title: 'Agro AI Web Application',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/AgroAI.git',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
@@ -69,6 +75,7 @@ export const projects = [
     altText: 'Managemate Project Management Website',
     title: 'Managemate Website',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/ManageMate.git',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
@@ -77,6 +84,7 @@ export const projects = [
     altText: 'AutoRentz Website',
     title: 'AutoRentz Car Show Case Web Application',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/AutoRentz.git',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
@@ -85,6 +93,7 @@ export const projects = [
     altText: 'Humaan Official Website Clone',
     title: 'Humaan Official Website Clone',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/Humaan.com-clone-web-app.git',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
@@ -93,6 +102,7 @@ export const projects = [
     altText: 'Appointment Booking System',
     title: 'Appointment Booking System',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/Appointment-Booking-System.git',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
@@ -101,18 +111,16 @@ export const projects = [
     altText: 'Sithurasa Backery Website',
     title: 'Sithurasa Backery Web Application',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/Backery_website.git',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
-  },
-  
-  
-  
-  
+  },  
   {
     imgSrc: '/netflix.png',
     altText: 'Netflix official Website Clone',
     title: 'Netflix official Website Clone',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/Netflix-Clone-App.git',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
@@ -121,6 +129,7 @@ export const projects = [
     altText: 'Higher Education Web Application',
     title: 'Higher Education Web Application',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/Mind_Education.git',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
@@ -129,6 +138,16 @@ export const projects = [
     altText: 'Library Management System',
     title: 'Library Management System',
     category: 'Web Design',
+    link: 'https://github.com/RdhYuGaan/Library-Management-system.git',
+    description:
+      'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
+  },
+  {
+    imgSrc: '/ntc.png',
+    altText: ' national transport commison redesign',
+    title: ' National Transport Commison Redesign',
+    category: 'UI/UX',
+    link: 'https://www.figma.com/design/5hy0FbsfcZERmS9bQ1cW0z/Untitled?node-id=0-1&p=f&t=SU9X2Y0Wpnx39v3g-0',
     description:
       'Crafting intuitive and beautiful user interfaces that enhance user experiences and streamline interactions.',
   },
