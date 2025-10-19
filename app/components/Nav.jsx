@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { navLinks } from '../utils/dataBase';
 import Image from 'next/image';
-import Button from './Button';
+
 import { MenuIcon, X } from 'lucide-react';
 
 function Nav({ className }) {
@@ -11,12 +11,22 @@ function Nav({ className }) {
     setIsOpen(!isOpen);
   };
 
-  const handleLinkClick = id => {
-    document
-      .getElementById(id)
-      .scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    setIsOpen(false);
-  };
+  const handleLinkClick = (id) => {
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  } else {
+    console.warn(`No element found with id: ${id}`);
+  }
+  setIsOpen(false);
+};
+
+  // const handleLinkClick = id => {
+  //   document
+  //     .getElementById(id)
+  //     .scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  //   setIsOpen(false);
+  // };
 
   const renderLinks = () => {
     return navLinks.map(({ id, label }) => (
