@@ -5,6 +5,7 @@ import ProjectsSection from './sections/ProjectsSection';
 import TestimonialsSection from './sections/TestimonialsSection';
 import ContactSection from './sections/ContactSection';
 import Navbar from './components/Navbar';
+import Chatbot from '../components/Chatbot/Chatbot';
 
 export default function Home(){
 
@@ -19,7 +20,7 @@ export default function Home(){
       {/* <TestimonialsSection /> */}
       <ContactSection />
 
-
+      <Chatbot />
 
     </main>
   );

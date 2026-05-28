@@ -1,0 +1,56 @@
+{
+  "personal": {
+    "name": "Radith",
+    "role": "Software Developer",
+    "description": "I am a software developer passionate about building modern web applications. Feel free to ask me about my skills or projects!",
+    "email": "radith@example.com",
+    "location": "Global",
+    "cvUrl": "/Radith_CV.pdf"
+  },
+  "education": [
+    {
+      "institution": "University / College",
+      "degree": "B.Sc. in Computer Science",
+      "status": "Completed / Ongoing"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Tech Innovations Inc.",
+      "summary": "Worked on developing full-stack web applications and improving UI/UX."
+    }
+  ],
+  "skills": {
+    "frontend": ["React", "Next.js", "Tailwind CSS", "Framer Motion", "JavaScript", "TypeScript"],
+    "backend": ["Node.js", "Express", "Python", "MongoDB", "PostgreSQL"],
+    "tools": ["Git", "Docker", "AWS", "Vercel"]
+  },
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "description": "A modern portfolio built with Next.js and Tailwind CSS featuring a futuristic glassmorphism chatbot.",
+      "techStack": ["Next.js", "React", "Tailwind CSS", "Framer Motion"]
+    },
+    {
+      "title": "E-Commerce Platform",
+      "description": "Full-stack online store with dynamic product loading and cart functionality.",
+      "techStack": ["React", "Express", "MongoDB", "Stripe"]
+    }
+  ],
+  "research": [
+    {
+      "topic": "AI in Web Development",
+      "summary": "Exploring the use of AI tools such as local chatbots to improve user experience in web applications."
+    }
+  ],
+  "achievements": [
+    "Hackathon Winner 2023",
+    "Completed Advanced Web Architecture Certification"
+  ],
+  "contactLinks": {
+    "github": "https://github.com/",
+    "linkedin": "https://linkedin.com/in/",
+    "twitter": "https://twitter.com/"
+  }
+}
